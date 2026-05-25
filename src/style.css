@@ -101,7 +101,6 @@ table {
     width: 90%;
     background-color: #111827;
     border-radius: 10px;
-    overflow: hidden;
     border:"0";
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
@@ -156,7 +155,7 @@ body.home .content p {
 }
 
 body {
-    overflow-x: hidden;
+
 }
 
 .grid {
@@ -194,7 +193,6 @@ body {
     background-color: #111827;
     position: relative;
     font-weight: bold;
-    overflow: hidden;
 }
 
 .slot::before {
