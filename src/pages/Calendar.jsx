@@ -4,6 +4,7 @@ import React from "react";
 function Calendar(){
     return (
         <body>
+          <h1>2026 Calendar</h1>
 
       <nav>
         <a href="/">Home</a>
