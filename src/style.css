@@ -15,6 +15,17 @@
     }
 }
 
+html, body{
+    height: auto;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+#root {
+    min-height: 100vh;
+    overflow: visible;
+}
+
 * {
     margin: 0;
     padding: 0;
