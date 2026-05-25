@@ -272,7 +272,7 @@ a[href="williams.html"]{
     justify-content: flex-start;
 }
 .row:last-child .slot{
-    margin-left:0px;
+    margin-left:40px;
     width: 230px;
 }
 
