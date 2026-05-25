@@ -17,22 +17,16 @@ function Home() {
         <h2>Race Start</h2>
 
         {/* Hidden checkbox */}
-<input
-  type="checkbox"
-  id="start"
-onChange={(e) => {
-  const audio = document.getElementById("raceAudio");
-
-  if (e.target.checked) {
-    setTimeout(() => {
-      audio.currentTime = 0;
-      audio.play();
-    }, 5050); // 👈 adjust timing here
-  } else {
-    audio.pause();
-  }
-}}
-/>
+      <input type="checkbox" id="start" onChange={(e) => {
+         const audio = document.getElementById("raceAudio");
+          if (e.target.checked) {
+            setTimeout(() => {
+            audio.currentTime = 0;
+            audio.play();
+            }, 5050); //  adjust timing here//
+          } else {
+            audio.pause();}
+      }}/>
 
         {/* Button */}
         <label htmlFor="start" className="start-btn">
