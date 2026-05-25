@@ -13,7 +13,7 @@ function Calendar(){
 
      <p className="content1">It's one thing to know F1, but it's another to know when to watch and with whom.</p>
        
-
+       <div className="calender.container">
      <table  cellpadding="10">
   <tr>
     <th>Round</th>
@@ -200,6 +200,7 @@ function Calendar(){
   </tr>
 
 </table>
+</div>
   <footer>
   <p>All rights reserved	&#169;</p>
 </footer>

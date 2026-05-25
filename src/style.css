@@ -1,11 +1,17 @@
 @media (max-width: 768px) {
     .row {
-        flex-direction: column;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        overflow: auto;
+        gap: 20px;
+        padding: 10px;
         align-items: center;
     }
 
     .slot {
-        width: 90%;
+        width: 160px;
+        flex: 0 0 auto;
     }
 }
 
@@ -375,4 +381,15 @@ a[href="williams.html"]{
 .light {
     background-color: #300;
     box-shadow: none;
+}
+
+.calendar-container {
+    max-height: 80vh;
+    overflow-y: auto;
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    min-width: 600px;
 }
