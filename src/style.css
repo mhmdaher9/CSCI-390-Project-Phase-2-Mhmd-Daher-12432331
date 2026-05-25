@@ -30,6 +30,9 @@ html, body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Racing Sans One", sans-serif;
+    font-weight: 400;
+    font-style: normal
 }
 
 body {
@@ -76,14 +79,18 @@ body {
     margin: 30px auto;   
     padding: 20px;         
     max-width: 700px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: "Racing Sans One", sans-serif;
+    font-weight: 400;
+    font-style: normal
 }
 
 h1 {
     text-align: center;
     margin: 20px 0;
     color: #e10600;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: "Racing Sans One", sans-serif;
+    font-weight: 400;
+    font-style: normal
 }
 
 nav a{
@@ -93,7 +100,9 @@ nav a{
     font-weight: bold;
     transition: 0.3s;
     text-align: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: "Racing Sans One", sans-serif;
+    font-weight: 400;
+    font-style: normal
 }
 
 nav{
@@ -113,7 +122,9 @@ table {
     background-color: #111827;
     border-radius: 10px;
     border:"0";
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: "Racing Sans One", sans-serif;
+    font-weight: 400;
+    font-style: normal
 }
 
 th, td {
@@ -155,9 +166,15 @@ body.home .content {
     width: 100%;
     max-width: 3000px;
     margin: 60px auto;
+    font-family: "Racing Sans One", sans-serif;
+    font-weight: 400;
+    font-style: normal
 }
 
 body.home .content p {
+    font-family: "Racing Sans One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
     text-align: justify;
     font-size: 20px;
     line-height: 1.9;
@@ -201,6 +218,9 @@ body.home .content p {
     background-color: #111827;
     position: relative;
     font-weight: bold;
+    font-family: "Racing Sans One", sans-serif;
+    font-weight: 400;
+    font-style: normal
 }
 
 .slot::before {
