@@ -17,7 +17,22 @@ function Home() {
         <h2>Race Start</h2>
 
         {/* Hidden checkbox */}
-        <input type="checkbox" id="start" />
+<input
+  type="checkbox"
+  id="start"
+onChange={(e) => {
+  const audio = document.getElementById("raceAudio");
+
+  if (e.target.checked) {
+    setTimeout(() => {
+      audio.currentTime = 0;
+      audio.play();
+    }, 5050); // 👈 adjust timing here
+  } else {
+    audio.pause();
+  }
+}}
+/>
 
         {/* Button */}
         <label htmlFor="start" className="start-btn">
@@ -31,7 +46,12 @@ function Home() {
           <div className="light"></div>
           <div className="light"></div>
           <div className="light"></div>
+          <audio id="raceAudio" src="/start.mp3" preload="auto"></audio>
         </div>
+
+        
+        
+
 
         <p className="go-text">LIGHTS OUT! GO GO GO!!!</p>
       </div>
