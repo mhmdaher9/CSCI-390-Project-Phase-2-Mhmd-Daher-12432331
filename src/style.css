@@ -384,12 +384,14 @@ a[href="williams.html"]{
 }
 
 .calendar-container {
-    max-height: 80vh;
-    overflow-y: auto;
-    overflow-x: auto;
+    width: 100%;
+    max-height: none;
+    overflow: visible;
+
 }
 
 table {
     width: 100%;
     min-width: 600px;
+    height: auto;
 }
