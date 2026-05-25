@@ -1,0 +1,369 @@
+@media (max-width: 768px) {
+    .row {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family:Helvetica, sans-serif;
+    background-color: #0b0f19;
+    color: #fff9f8;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+.home {
+    background-image: url("./media/images/8e79640a4ab2331f8af935894e4d7108.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.content {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow';
+    max-width: 800px;
+    margin: 40px auto; 
+    padding: 0 20px; 
+}
+
+.content p {
+    text-align: justify;
+    line-height: 1.8;
+    font-size: 18px;
+    margin: 30px auto;   
+    padding: 20px;         
+    max-width: 700px;
+}
+
+.content1 {
+    max-width: 800px; 
+    margin: 40px auto;  
+    padding: 0 20px; 
+    text-align: justify;
+    line-height: 1.8;
+    font-size: 18px;
+    margin: 30px auto;   
+    padding: 20px;         
+    max-width: 700px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    margin: 20px 0;
+    color: #e10600;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+nav a{
+    text-decoration: none;
+    color: #000000;
+    margin: 0 15px;
+    font-weight: bold;
+    transition: 0.3s;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+nav{
+    background-color: #e10600;
+    padding: 12px 0;
+    text-align: center;
+}
+
+nav a:hover {
+    color: #ffe520;
+}
+
+table {
+    margin: 30px auto;
+    border-collapse: collapse;
+    width: 90%;
+    background-color: #111827;
+    border-radius: 10px;
+    overflow: hidden;
+    border:"0";
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+th, td {
+    padding: 12px;
+    text-align: center;
+}
+
+th {
+    background-color: #e10600;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #1f2937;
+}
+
+tr:hover {
+    background-color: #374151;
+}
+
+video {
+    display: block;
+    margin: 20px auto;
+    max-width: 90%;
+    border-radius: 10px;
+}
+
+footer {
+    margin-top: 70px;
+}
+
+footer p {
+    font-size: 14px;
+    color: #aaa;
+    text-align: center;
+}
+
+body.home .content {
+    width: 100%;
+    max-width: 3000px;
+    margin: 60px auto;
+}
+
+body.home .content p {
+    text-align: justify;
+    font-size: 20px;
+    line-height: 1.9;
+    font-weight: 500;
+    text-shadow: 0 0 8px rgba(0,0,0,0.7);
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.grid {
+    width: 500px;
+    margin: 40px auto;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    gap: 40px; 
+    margin: 15px 0;
+}
+
+.slot {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 90px;
+    padding: 12px;
+    white-space: nowrap;
+    background-color: #111827;
+    border-left: 5px solid #e10600;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: 0.3s;
+    background-size: cover;     
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #111827;
+    position: relative;
+    font-weight: bold;
+    overflow: hidden;
+}
+
+.slot::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.5); 
+    border-radius: 5px;
+}
+ 
+.slot span {
+    position: relative;
+    z-index: 1;
+}
+
+.slot:hover {
+    background-color: #1f2937;
+    transform: scale(1.05);
+}
+
+a[href="ferrari.html"]{
+    background-image: url("./media/images/Ferrari.jpg");
+}
+
+a[href="mercedes.html"]{
+    background-image: url("./media/images/merc.jpg");
+}
+
+a[href="redbull.html"]{
+    background-image: url("./media/images/redbull.jpg");
+}
+
+a[href="aston.html"]{
+    background-image: url("./media/images/aston.jpg");
+}
+
+a[href="alpine.html"]{
+    background-image: url("./media/images/alpine.jpg");
+}
+
+a[href="cadillac.html"]{
+    background-image: url("./media/images/cadillac.jpg");
+}
+
+a[href="rb.html"]{
+    background-image: url("./media/images/rb.jpg");
+}
+
+a[href="mclaren.html"]{
+    background-image: url("./media/images/mclaren.jpg");
+}
+
+a[href="haas.html"]{
+    background-image: url("./media/images/haas.jpg");
+}
+
+a[href="audi.html"]{
+    background-image: url("./media/images/audi.jpg");
+}
+
+a[href="williams.html"]{
+    background-image: url("./media/images/williams.jpg");
+}
+
+.row:last-child {
+    justify-content: flex-start;
+}
+.row:last-child .slot{
+    margin-left:0px;
+    width: 230px;
+}
+
+.left {
+    margin-bottom: 10px;
+}
+
+.right {
+    margin-top: 30px;
+}
+ .grid:hover{
+    color: #e10600;
+ }
+
+.lights-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+    justify-content: center;
+    margin: 60px 0;
+}
+
+#start {
+    display: none;
+}
+
+.start-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #e10600;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    margin: 20px 0;
+    text-align: center;
+}
+
+.start-btn:hover {
+    background-color: #ff1e00;
+}
+
+.lights {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.light {
+    width: 30px;
+    height: 30px;
+    background-color: red;
+    border-radius: 50%;
+    box-shadow: 0 0 10px red;
+}
+
+#start:checked ~ .lights .light:nth-child(1) {
+    animation: turnon 1s ease forwards, turnoff 0.5s forwards;
+    animation-delay: 0.4s, 5.2s;
+}
+
+#start:checked ~ .lights .light:nth-child(2) {
+    animation: turnon 1s ease forwards, turnoff 0.5s forwards;
+    animation-delay: 1.4s, 5.2s;
+}
+
+#start:checked ~ .lights .light:nth-child(3) {
+    animation: turnon 1s ease forwards, turnoff 0.5s forwards;
+    animation-delay: 2.4s, 5.2s;
+}
+
+#start:checked ~ .lights .light:nth-child(4) {
+    animation: turnon 1s ease forwards, turnoff 0.5s forwards;
+    animation-delay: 3.4s, 5.2s;
+}
+
+#start:checked ~ .lights .light:nth-child(5) {
+    animation: turnon 1s ease forwards, turnoff 0.5s forwards;
+    animation-delay: 4.4s, 5.2s;
+}
+
+@keyframes turnon {
+    to {
+        background-color: rgb(240, 8, 8);
+        box-shadow: 0 0 10px red;
+    }
+}
+
+@keyframes turnoff {
+    to {
+        background-color: #300;
+        box-shadow: none;
+    }
+}
+
+.go-text {
+    margin-top: 20px;
+    opacity: 0;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#start:checked ~ .go-text {
+    animation: showText 0.5s forwards;
+    animation-delay: 5.7s;
+}
+
+@keyframes showText {
+    to {
+        opacity: 1;
+    }
+}
+
+.light {
+    background-color: #300;
+    box-shadow: none;
+}
