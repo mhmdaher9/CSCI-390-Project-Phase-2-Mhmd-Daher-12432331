@@ -26,7 +26,7 @@ function Guide() {
   onLoadedData={() => console.log("Video loaded")}
   onError={() => console.log("Video error")}
 >
-  <source src="./videos/A Beginner's Guide To Formula 1_1080p.mp4" type="video/mp4" />
+  <source src="./videos/f1.mp4" />
 </video>
       </div>
 

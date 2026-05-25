@@ -3,6 +3,10 @@
         flex-direction: column;
         align-items: center;
     }
+
+    .slot {
+        width: 90%;
+    }
 }
 
 * {
@@ -17,6 +21,7 @@ body {
     color: #fff9f8;
     line-height: 1.6;
     text-align: justify;
+    overflow: hidden;
 }
 
 .home {
@@ -31,7 +36,8 @@ body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow';
     max-width: 800px;
     margin: 40px auto; 
-    padding: 0 20px; 
+    padding: 0 15px; 
+    width: 100%;
 }
 
 .content p {
@@ -148,8 +154,10 @@ body {
 }
 
 .grid {
-    width: 500px;
     margin: 40px auto;
+    width: 100%;
+    max-width: 500px;
+    padding: 0 10px;
 }
 
 .row {
@@ -163,7 +171,8 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 300px;
+    width: 100%;
+    max-width: 180px;
     height: 90px;
     padding: 12px;
     white-space: nowrap;
