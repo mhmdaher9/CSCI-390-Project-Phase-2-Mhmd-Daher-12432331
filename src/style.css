@@ -60,6 +60,13 @@
         max-width: 160px;
     }
 
+    .row:last-child {
+        justify-content: center;
+    }
+
+    .row:last-child .slot {
+        margin-left: 0;
+    }
 }
 
 html, body{
