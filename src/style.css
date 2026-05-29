@@ -61,13 +61,13 @@
     }
 
     .row:last-child {
-        justify-content: center;
+        justify-content: flex-start;
     }
 
     .row:last-child .slot {
-        margin-left: 100px;
-        width: 10px;
-        height: 80px;
+        margin-left: 1000px;
+        width: 0px;
+        
     }
 }
 
