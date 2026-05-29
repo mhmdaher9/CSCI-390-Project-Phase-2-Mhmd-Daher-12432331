@@ -65,7 +65,9 @@
     }
 
     .row:last-child .slot {
-        margin-left: 0;
+        margin-left: 10px;
+        width: 140px;
+        height: 80px;
     }
 }
 
