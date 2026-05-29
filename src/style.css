@@ -36,6 +36,40 @@
     nav a:hover {
         background-color: #ff1e00;
     }
+
+    .grid {
+        width: 100%;
+        max-width: 100%;
+        padding: 10px;
+    }
+
+    .row {
+        display: flex;
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        overflow-y: hidden;
+        justify-content: flex-start;
+        gap: 15px;
+        padding-bottom: 10px;
+
+        scrollbar-width: thin;
+    }
+
+    .slot {
+        flex: 0 0 auto;
+        width: 160px;
+        height: 90px;
+        font-size: 14px;
+    }
+
+    .row:last-child {
+        justify-content: flex-start;
+    }
+
+    .row:last-child .slot {
+        margin-left: 0;
+        width: 160px;
+    }
 }
 
 html, body{
