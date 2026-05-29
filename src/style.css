@@ -473,7 +473,7 @@ table {
     }
 
     .row:last-child {
-        justify-content: center ;
+        justify-content: flex-start ;
     }
 
     .row:last-child .slot {
