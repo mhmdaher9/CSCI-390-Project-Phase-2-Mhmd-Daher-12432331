@@ -3,10 +3,12 @@
         display: flex;
         flex-direction: row;
         justify-content: flex-start;
-        overflow: auto;
+        overflow-x: auto;
+        overflow-y: hidden;
         gap: 20px;
         padding: 10px;
         align-items: center;
+        scroll-behavior: smooth;
     }
 
     .slot {
@@ -41,7 +43,8 @@ body {
     color: #fff9f8;
     line-height: 1.6;
     text-align: justify;
-    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: auto;
 }
 
 .home {
@@ -197,6 +200,8 @@ body.home .content p {
     justify-content: center;
     gap: 40px; 
     margin: 15px 0;
+    overflow-x: auto;
+    overflow-y: hidden;
 }
 
 .slot {
