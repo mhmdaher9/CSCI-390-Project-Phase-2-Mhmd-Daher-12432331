@@ -1,75 +1,3 @@
-@media (max-width: 768px) {
-    .row {
-        display: flex;
-        flex-direction: row;
-        justify-content: flex-start;
-        overflow-x: auto;
-        overflow-y: hidden;
-        gap: 20px;
-        padding: 10px;
-        align-items: center;
-        scroll-behavior: smooth;
-    }
-
-    .slot {
-        width: 160px;
-        flex: 0 0 auto;
-    }
-
-    nav {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 12px;
-        padding: 15px 0;
-    }
-
-    nav a {
-        margin: 0;
-        width: 90%;
-        text-align: center;
-        padding: 10px;
-        background-color: #c70500;
-        border-radius: 6px;
-    }
-
-    nav a:hover {
-        background-color: #ff1e00;
-    }
-
-    .grid {
-        width: 100%;
-        max-width: 100%;
-        padding: 10px;
-    }
-
-    .row {
-        display: flex;
-        justify-content: center;
-        gap: 10px;
-        margin: 10px 0;
-        flex-wrap: wrap;
-        overflow: visible;
-    }
-
-    .slot {
-        width: 140px;
-        height: 80px;
-        font-size: 13px;
-        flex: 1 1 40%;
-        max-width: 160px;
-    }
-
-    .row:last-child {
-        justify-content: center ;
-    }
-
-    .row:last-child .slot {
-        width: 100px ;
-        margin-left: -20 ;
-    }
-}
-
 html, body{
     height: auto;
     overflow-x: hidden;
@@ -480,4 +408,76 @@ table {
     width: 100%;
     min-width: 600px;
     height: auto;
+}
+
+@media (max-width: 768px) {
+    .row {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        overflow-x: auto;
+        overflow-y: hidden;
+        gap: 20px;
+        padding: 10px;
+        align-items: center;
+        scroll-behavior: smooth;
+    }
+
+    .slot {
+        width: 160px;
+        flex: 0 0 auto;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 12px;
+        padding: 15px 0;
+    }
+
+    nav a {
+        margin: 0;
+        width: 90%;
+        text-align: center;
+        padding: 10px;
+        background-color: #c70500;
+        border-radius: 6px;
+    }
+
+    nav a:hover {
+        background-color: #ff1e00;
+    }
+
+    .grid {
+        width: 100%;
+        max-width: 100%;
+        padding: 10px;
+    }
+
+    .row {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+        margin: 10px 0;
+        flex-wrap: wrap;
+        overflow: visible;
+    }
+
+    .slot {
+        width: 140px;
+        height: 80px;
+        font-size: 13px;
+        flex: 1 1 40%;
+        max-width: 160px;
+    }
+
+    .row:last-child {
+        justify-content: center ;
+    }
+
+    .row:last-child .slot {
+        width: 100px ;
+        margin-left: -20 ;
+    }
 }
