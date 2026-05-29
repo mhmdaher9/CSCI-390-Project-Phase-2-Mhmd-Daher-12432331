@@ -45,30 +45,28 @@
 
     .row {
         display: flex;
-        flex-wrap: nowrap;
-        overflow-x: auto;
-        overflow-y: hidden;
-        justify-content: flex-start;
-        gap: 15px;
-        padding-bottom: 10px;
-
-        scrollbar-width: thin;
+        justify-content: center;
+        gap: 10px;
+        margin: 10px 0;
+        flex-wrap: wrap;
+        overflow: visible;
     }
 
     .slot {
-        flex: 0 0 auto;
-        width: 160px;
-        height: 90px;
-        font-size: 14px;
+        width: 140px;
+        height: 80px;
+        font-size: 13px;
+        flex: 1 1 40%;
+        max-width: 160px;
     }
 
     .row:last-child {
-        justify-content: flex-start;
+        justify-content: center;
     }
 
     .row:last-child .slot {
         margin-left: 0;
-        width: 160px;
+        width: 140px;
     }
 }
 
