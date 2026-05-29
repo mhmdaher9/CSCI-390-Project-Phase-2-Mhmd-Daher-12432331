@@ -478,6 +478,6 @@ table {
 
     .row:last-child .slot {
         width: 100px ;
-        margin-left: -20 ;
+        margin-left: 20px ;
     }
 }
